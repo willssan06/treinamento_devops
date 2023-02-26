@@ -1,6 +1,6 @@
-Devops (Devops + Operações)
+## Devops (Devops + Operações)
 
-Ferramentas:
+## Ferramentas:
 
 - Terraform
 - Ansible
@@ -22,7 +22,7 @@ Ferramentas:
 - grafana 
 - Rundeck 
 
-- Linguagem de script
+## Linguagem de script
 
   - Shell script e power shell
   - Python
@@ -32,16 +32,16 @@ Ferramentas:
   - Cron Jobs
   - Monitoramento 
 
-- Linux
+## Linux
 - Redes - firewall, servidor de proxy, load balance, protocolo http e https, tcp e udp serviços de redes, IP, DNS, Resolução de nome
 - Segurança
 
-Planejamento 
+## Planejamento 
 
 - scrum (sprints)
 - kanban (Backlog esteira)
 
-Códogo
+## Códogo
 
 - demanda
 
@@ -49,7 +49,7 @@ Códogo
 
    - versionamento seguindo um git flow e ir para um repositório git remoto (github, gitlab, bitbucket)
 
-- Build (gerar um artefato (pacote de instalação)
+## Build (gerar um artefato (pacote de instalação)
 
    - docker é adotado como padrão para gerar os artefatos)
    - Java -> maven Glade
@@ -57,10 +57,10 @@ Códogo
    - PHP -> Composer
    - Python -> pip
 
-- Test
+## Test
    - automatizar testes no pipeline (CI)
 
-- Release
+## Release
 
   - processo de liberação de uma nova versão, funcionalidade para o usuário final
 
@@ -77,11 +77,11 @@ Códogo
 
     - canary (feature togglo ou feature flag) (ferramenta HARNESS)ambiente 1.0 -> ambiente 2.0 apenas 10% da base de usuarios fico com a nova versão, com o botão de on e off
 
-- CI / CD (Jenkins, Gitlab, Circle CI, Drone, Harness, Azure Devops)
+## CI / CD (Jenkins, Gitlab, Circle CI, Drone, Harness, Azure Devops)
 
    - Build -> Test -> release -> deploy (pípeline)
 
-- Preparar a infra (AS CODE)
+## Preparar a infra (AS CODE)
 
    - ON premise
    - Cloud 
