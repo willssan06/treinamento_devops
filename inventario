@@ -1,0 +1,5 @@
+[hosts]
+# Arquivo onde adicionamos todos os hosts da nossa infra
+192.168.0.7
+192.168.0.4
+192.168.0.6
