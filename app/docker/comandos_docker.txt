@@ -1,0 +1,32 @@
+# comando para criar um container com um nome e adicionando a porta para acesso externo
+sudo docker run --name nginx-teste01 -d -p 8080:80 nginx
+
+# comando para listar os containers criados
+sudo docker container ls
+
+# apagar o container passando o id
+sudo docker rm de96e6f82540 -f
+
+# comando para criar um volume e enviar um arquivo para dentro do container
+docker run -v /home/vboxuser/Documents/treinamento_devops/app/html/:/usr/share/nginx/html --name container-nginx-01 -d -p 8080:80 nginx
+
+# comando para acessar o container
+docker exec -it e5f1a1753182 /bin/bash
+
+# comando para limitar o tamanho do container
+docker run -m 1GB -v /home/vboxuser/Documents/treinamento_devops/app/html/:/usr/share/nginx/html --name container-nginx-01 -d -p 8080:80 nginx
+
+# comando para inspecionar o container
+docker inspect 5089eeccf13b
+
+# comando para também listar os containers
+docker ps
+
+# comando para listar as imagens já utilizadas
+docker image ls
+
+# comando para baixar uma imagem 
+docker image pull nome da imagem
+
+# comando para apagar uma imagem
+docker image rm nome da imagem
