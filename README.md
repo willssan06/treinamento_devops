@@ -43,7 +43,7 @@
 - scrum (sprints)
 - kanban (Backlog esteira)
 
-## Códogo
+## Código
 
 - demanda
 
